@@ -21,7 +21,7 @@
         color: rgb(0, 0, 0);
       }
     </style>
-    <div class="container mb-3">
+    <div class="container mb-3"> <!--mb: 이미지와 내용 출력 부분 사이 간격-->
         <img src="국가사진.png" class="img-fluid" alt="" style="width:100%;">
         <div class="text-block">
             <h1>국가명</h1>
@@ -39,8 +39,8 @@
                 <a class="list-group-item list-group-item-action text-center" href="#list-item-2">출입국 조치</a>
                 <a class="list-group-item list-group-item-action text-center" href="#list-item-3">여행 정보</a>
             </div>
-            <!--내용 출력 부분-->
-            <div class="scrollspy-example col-sm-9 rounded" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" tabindex="0" style="height:500px;overflow-y: scroll;padding:10px; border: 1px solid rgb(221, 221, 221);">
+            <!--내용 출력 부분 / data-bs-offset: 스크롤 경계 설정-->
+            <div class="scrollspy-example col-sm-9 rounded" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="20" tabindex="0" style="height:500px;overflow-y: scroll;padding:10px; border: 1px solid rgb(221, 221, 221);">
                 <h4 id="list-item-1">코로나 정보</h4>
                 <script>document.write("(코로나정보 배열)<br><br>");
                 document.write("<br><br><br><br><br><br><br><br><br><br><br><br>");</script>
