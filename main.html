@@ -8,11 +8,11 @@
     <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
-<body>
-    <h1>COVID-19 + TRAVEL</h1>
+<body style = "background-color : rgb(181, 218, 233)">
+    <h1 style="text-shadow : 2px 2px 2px green">&nbsp;&nbsp;COVID-19 + TRAVEL</h1>
 	<hr>
 	<form action="#" method="post">
-		<label for="subject">국가 검색</label>
+		<label for="subject", style="color : blue">&nbsp;&nbsp;국가 검색&nbsp;</label>
 		<input type="text" name="subject" id="subject" list="subject_list">
 		
 		<datalist id="subject_list">
@@ -43,15 +43,77 @@
             <option>타지키스탄</option>
             <option>태국</option>
             <option>터키</option>
-            <option>투르크메니스탄</option>
+            <option>파키스탄</option>          
             <option>필리핀</option>
 		</datalist>
-		
-		<button type="submit">입력완료</button>
+       
+        <a class="btn btn-primary" onclick='
+        if(subject.value=="네팔") {
+            href="https://covid19travel-detail-Np.netlify.app/"
+        } if(subject.value=="대만") {
+            href="https://covid19travel-detail-Tw.netlify.app/"
+        } if(subject.value=="대한민국"){
+            href="https://covid19travel-detail-Kr.netlify.app/"
+        } if(subject.value=="라오스"){
+            href="https://covid19travel-detail-La.netlify.app/"
+        } if(subject.value=="말레이시아"){
+            href="https://covid19travel-detail-My.netlify.app/"
+        } if(subject.value=="몽골"){
+            href="https://covid19travel-detail-Mn.netlify.app/"
+        } if(subject.value=="방글라데시"){
+            href="https://covid19travel-detail-Bd.netlify.app/"
+        } if(subject.value=="사우디아라비아"){
+            href="https://covid19travel-detail-Sa.netlify.app/"
+        } if(subject.value=="스리랑카"){
+            href="https://covid19travel-detail-Lk.netlify.app/"
+        } if(subject.value=="시리아"){
+            href="https://covid19travel-detail-Sy.netlify.app/"
+        } if(subject.value=="싱가포르"){
+            href="https://covid19travel-detail-Sg.netlify.app/"
+        } if(subject.value=="아랍에미리트"){
+            href="https://covid19travel-detail-Ae.netlify.app/"
+        } if(subject.value=="예멘"){
+            href="https://covid19travel-detail-Ye.netlify.app/"
+        } if(subject.value=="오만"){
+            href="https://covid19travel-detail-Om.netlify.app/"
+        } if(subject.value=="요르단"){
+            href="https://covid19travel-detail-Jo.netlify.app/"
+        } if(subject.value=="우즈베키스탄"){
+            href="https://covid19travel-detail-Uz.netlify.app/"
+        } if(subject.value=="이란"){
+            href="https://covid19travel-detail-Ir.netlify.app/"
+        } if(subject.value=="인도"){
+            href="https://covid19travel-detail-In.netlify.app/"
+        } if(subject.value=="인도네시아"){
+            href="https://covid19travel-detail-Id.netlify.app/"
+        } if(subject.value=="일본"){
+            href="https://covid19travel-detail-Jp.netlify.app/"
+        } if(subject.value=="중국"){
+            href="https://covid19travel-detail-Ch.netlify.app/"
+        } if(subject.value=="카자흐스탄"){
+            href="https://covid19travel-detail-Kz.netlify.app/"
+        } if(subject.value=="캄보디아"){
+            href="https://covid19travel-detail-Kh.netlify.app/"
+        } if(subject.value=="키르기스스탄"){
+            href="https://covid19travel-detail-Kg.netlify.app/"
+        } if(subject.value=="타지키스탄"){
+            href="https://covid19travel-detail-Tj.netlify.app/"
+        } if(subject.value=="태국"){
+            href="https://covid19travel-detail-Th.netlify.app/"
+        } if(subject.value=="터키"){
+            href="https://covid19travel-detail-Tr.netlify.app/"
+        } if(subject.value=="파키스탄"){
+            href="https://covid19travel-detail-Pk.netlify.app/" 
+        } if(subject.value=="필리핀"){
+            href="https://covid19travel-detail-Ph.netlify.app/"
+        }'
+        role="button" target="_blank">이동</a>
+        
 
+    
         <br/>
-        <br/>
-        <br/>
+        
+        <br/>&nbsp;&nbsp;
 
         <iframe src="https://covid19.map.naver.com/" width="600" height="450" frameborder="0" style="border:0;"></iframe>  
 
