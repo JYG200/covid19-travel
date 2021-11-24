@@ -1,6 +1,6 @@
 # Asia covid19-travel
 아시아 코로나 현황과 여행정보를 한눈에 볼 수 있는 코로나 홈페이지 입니다.
-https://covid19travel-main.netlify.app/
+# https://covid19travel-main.netlify.app/
 
 # 프로젝트 내용
 ## 내용
